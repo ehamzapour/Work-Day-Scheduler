@@ -17,9 +17,9 @@
 * Javascript
 
 ## Screenshot
-![SCREENSHOT]()
+![SCREENSHOT](./images/ScheduleScreenshot.png)
 
 ## Project Status
-Project is: in progress
+Project is: complete
 
 ## Link to Deployed Application
