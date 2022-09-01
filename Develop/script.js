@@ -10,7 +10,7 @@ $(document).ready(function(){
         var time = $(this).parent().attr("id");
         
         // save text in local storage
-        localStorage.setItem(time,text);
+        localStorage.setItem(time, text);
     })
 
     function timeTracker() {
@@ -28,7 +28,7 @@ $(document).ready(function(){
                 $(this).addClass("present");
             }
             else {
-                $(this).addClass("past");
+                $(this).addClass("future");
             }
         })
     }
