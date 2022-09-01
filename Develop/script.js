@@ -21,14 +21,14 @@ $(document).ready(function(){
             var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
             //add the classes for background indicators
-            if(timeBlock < currentTime) {
+            if(timeBlock > currentTime) {
                 $(this).addClass("future");
             }
             else if (timeBlock === currentTime) {
                 $(this).addClass("present");
             }
             else {
-                $(this).addClass("future");
+                $(this).addClass("past");
             }
         })
     }
