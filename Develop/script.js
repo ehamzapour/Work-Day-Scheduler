@@ -16,7 +16,7 @@ $(document).ready(function(){
     function timeTracker() {
         var currentTime = moment().hour();
 
-        // loop over time blocks
+        // jquery loop over time blocks
         $(".time-block").each(function() { 
             var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
